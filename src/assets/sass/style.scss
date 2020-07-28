@@ -1,0 +1,29 @@
+@import "src/assets/sass/vars";
+
+/* Default styles*/
+body{
+  margin: 0;
+
+  font-family: 'Tenor Sans', sans-serif;
+  font-size: 14px;
+  color: $gray;
+  background-color: $white;
+  -webkit-font-smoothing: antialiased;
+}
+
+*,
+:before,
+:after{
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6{
+  margin: 0;
+}
+
+p{
+  margin: 0 0 10px;
+}
+
+/* Bootstrap */
+
