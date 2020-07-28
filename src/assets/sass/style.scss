@@ -1,29 +1,43 @@
-@import "src/assets/sass/vars";
+@import "vars";
 
-/* Default styles*/
-body{
+
+/* Default styles */
+html {
+  font-size: 15px;
+}
+
+body {
+  position: relative;
   margin: 0;
 
-  font-family: 'Tenor Sans', sans-serif;
-  font-size: 14px;
-  color: $gray;
   background-color: $white;
-  -webkit-font-smoothing: antialiased;
+
+  font-family: 'Montserrat', sans-serif;
+  color: $black_br;
+  font-size: 1rem;
+  line-height: 1.5;
 }
 
 *,
-:before,
-:after{
+*:before,
+*:after {
   box-sizing: border-box;
 }
 
-h1, h2, h3, h4, h5, h6{
-  margin: 0;
-}
-
-p{
-  margin: 0 0 10px;
-}
-
 /* Bootstrap */
+@import "../../../node_modules/bootstrap/scss/functions";
+@import "../../../node_modules/bootstrap/scss/variables";
+@import "../../../node_modules/bootstrap/scss/mixins";
+@import "../../../node_modules/bootstrap/scss/transitions";
+@import "../../../node_modules/bootstrap/scss/grid";
+@import "../../../node_modules/bootstrap/scss/modal";
+@import "../../../node_modules/bootstrap/scss/navbar";
+@import "../../../node_modules/bootstrap/scss/nav";
+@import "../../../node_modules/bootstrap/scss/buttons";
 
+/* Blocks */
+
+@import "blocks/header";
+@import "blocks/title";
+@import "blocks/intro";
+@import "blocks/footer";

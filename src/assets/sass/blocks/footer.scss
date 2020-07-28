@@ -1,15 +1,47 @@
-/*Footer*/
+/*footer*/
+
+.footer {
+  background: #d0c3b5;
+  padding-top: 20px;
+}
+
+.footer-item-title {
+  text-align: center;
+}
 
 .page-footer {
+  background: $chrom!important;
+}
+
+.footer-title {
+  text-align: left;
+  color: $black_br;
+}
+
+.footer-item-subtitle {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.footer-subtitle {
+  text-align: left;
+  color: $black_br;
+}
+
+.footer-item {
+  margin-top: 30px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.footer-down {
+  background-color: #ab9c8a!important;
+}
+
+.footer-item-down {
+  text-align: center;
+  color: #fff;
+  font-size: 13px;
   padding-top: 40px;
-  background-color: $chrom;
-}
-
-.white-text-email {
-  color: $black_br !important;
-}
-
-.grey-text.text-lighten-4 {
-  padding-top: 20px;
-  color: $black_br !important;
+  padding-bottom: 40px;
 }

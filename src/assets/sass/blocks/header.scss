@@ -1,0 +1,40 @@
+.header {
+  background-color: $chrom;
+}
+
+.navbar-logo {
+  width: 70px;
+  height: 55px;
+}
+
+.nav {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+.show>.nav-link {
+  color: $brown_white;
+}
+
+.nav-item {
+  display: inline-block;
+  text-decoration: none;
+}
+
+.nav-link{
+  text-decoration: none;
+  margin-right: 10px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 500;
+  color: $black_br;
+
+  &:hover {
+    color: $brown_white;
+  }
+}

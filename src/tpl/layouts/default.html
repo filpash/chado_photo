@@ -1,24 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+<meta charset="UTF-8">
+<html lang="ru">
 <head>
     {{> head }}
 </head>
-<body>
+<body data-spy="scroll" data-target="#navbar-example">
 
-<!--Navbar-->
-{{> navbar }}
-
-<!--Title-->
-<div class="title">
-    {{> title }}
-</div>
-
-<div class="intro">
     {{> body }}
-</div>
 
-<!--Footer-->
-{{> footer }}
+    <!--Title-->
+    {{> title }}
+
+    <!--Intro-->
+    {{> intro }}
+
+    <!--Footer-->
+    {{> footer }}
 
 <script src="assets/js/app.min.js"></script>
 

@@ -5,96 +5,96 @@
   margin-bottom: 80px;
 }
 
-.&__container {
-  background-color: #b6b9c4;
+.intro__container {
+  background-color: #e6e8ef;
 }
 
-.&__image {
+.intro__image {
   margin-top: 15px;
   margin-bottom: 15px;
 }
 
-.&__image__photo {
+.intro__image__photo {
   display: block;
   max-width: 100%;
   height: auto;
 }
 
-.&__text {
+.intro__text {
   margin-top: 15px;
   color: #534540;
 }
 
-.&__social {
+.intro__social {
   display: flex;
   text-align: justify;
   margin-top: 3rem;
   margin-bottom: 3rem;
 }
 
-.&__social__vk {
+.intro__social__vk {
   display: flex;
   padding-right: 2rem;
-
-  .&__social__vk:hover {
-    color: #1E88E5;
-    transition: color .2s linear;
-    -webkit-transform: scale(1.2);
-    -ms-transform: scale(1.2);
-    transform: scale(1.2);
-  }
 }
 
-.&__social__instagram {
-  display: flex;
-  padding-right: 2rem;
-
-  .&__social__instagram:hover {
-    color: #ec174c;
-    transition: color .2s linear;
-    -webkit-transform: scale(1.2);
-    -ms-transform: scale(1.2);
-    transform: scale(1.2);
-  }
+.intro__social__vk:hover {
+  color: #1E88E5;
+  transition: color .2s linear;
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
 }
 
-.&__social__facebook {
+.intro__social__instagram {
   display: flex;
   padding-right: 2rem;
-
-  .&__social__facebook:hover {
-    color: $hex;
-    transition: color .2s linear;
-    -webkit-transform: scale(1.2);
-    -ms-transform: scale(1.2);
-    transform: scale(1.2);
-  }
 }
 
-.&__social__telegram {
+.intro__social__instagram:hover {
+  color: #ec174c;
+  transition: color .2s linear;
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.intro__social__facebook {
   display: flex;
   padding-right: 2rem;
+}
 
-  .&__social__telegram:hover {
-    color: $birch;
-    transition: color .2s linear;
-    -webkit-transform: scale(1.2);
-    -ms-transform: scale(1.2);
-    transform: scale(1.2);
-  }
+.intro__social__facebook:hover {
+  color: #3f51b5;
+  transition: color .2s linear;
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.intro__social__telegram {
+  display: flex;
+  padding-right: 2rem;
+}
+
+.intro__social__telegram:hover {
+  color: #039be5;
+  transition: color .2s linear;
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
 }
 
 .intro__social__whatsapp {
   display: flex;
   padding-right: 2rem;
+}
 
-  .$__social__whatsapp:hover {
-    color: $green;
-    transition: color .2s linear;
-    -webkit-transform: scale(1.2);
-    -ms-transform: scale(1.2);
-    transform: scale(1.2);
-  }
+.intro__social__whatsapp:hover {
+  color: #00C853;
+  transition: color .2s linear;
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
 }
 
 span {

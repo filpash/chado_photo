@@ -15,6 +15,7 @@ const imagemin = require("gulp-imagemin");
 const del = require("del");
 const panini = require("panini");
 const browsersync = require("browser-sync").create();
+var obsoleteImages = require('gulp-font-awesome-icons');
 
 
 /* Paths */
