@@ -50,7 +50,7 @@
   color: $white;
 }
 
-.btn {
+.batn {
   position: absolute;
   display: inline-block;
   top: 55%;
@@ -82,4 +82,9 @@
     color: $white;
     background-color: $brown_white;
   }
+}
+
+.btn.focus, .btn:focus {
+  outline: 0;
+  box-shadow: none;
 }
