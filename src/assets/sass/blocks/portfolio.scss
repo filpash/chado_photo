@@ -1,0 +1,32 @@
+.portfolio__title {
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.portfolio__title_main {
+  text-align: center;
+  margin-top: 3rem;
+  color: $brown_white;
+}
+
+.portfolio__title__name {
+  color: $brown_black;
+  background-color: $white;
+
+  &:hover {
+    color: $brown_white;
+  }
+}
+
+.gallery {
+  padding: 0 11px 0 11px;
+}
+
+.portfolio__toggle_1,
+.portfolio__toggle_2,
+.portfolio__toggle_3,
+.portfolio__toggle_4,
+.portfolio__toggle_5{
+  text-decoration: none;
+}

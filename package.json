@@ -25,8 +25,8 @@
     "panini": "^1.6.3"
   },
   "dependencies": {
+    "baguettebox.js": "^1.11.1",
     "bootstrap": "^4.3.1",
-    "ekko-lightbox": "^5.3.0",
     "gulp-font-awesome-icons": "^1.1.0",
     "slick-carousel": "^1.8.1"
   }
