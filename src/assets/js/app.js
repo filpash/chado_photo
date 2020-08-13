@@ -8,5 +8,6 @@ $(function() {
     //= components/slick.js
     //= components/baguettebox.js
     //= components/toggler.js
+    //= components/burger.js
 
 });
