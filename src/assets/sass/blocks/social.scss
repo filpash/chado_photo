@@ -17,7 +17,7 @@
   margin-right: 1rem;
 
   &:hover .social__icon{
-    fill: $black_br;
+    fill: $brown_white;
   }
 }
 
@@ -25,7 +25,6 @@
   display: block;
   width: 30px;
   height: 30px;
-
   fill: $brown_black;
 
   transition: fill .1s linear;

@@ -1,6 +1,6 @@
 /*service*/
 .rec__title {
-  margin-top: 80px;
+  margin-top: 10rem;
   text-align: center;
   color: $brown_black;
   font-weight: 700;
@@ -45,7 +45,7 @@
   display: inline-block;
   top: 45%;
   left: 35%;
-  z-index: 1000;
+  z-index: 1;
   text-align: center;
   color: $white;
 }
@@ -55,7 +55,7 @@
   display: inline-block;
   top: 55%;
   left: 45%;
-  z-index: 1000;
+  z-index: 1;
   text-align: center;
 
   background: none;

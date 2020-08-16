@@ -51,7 +51,13 @@ p, h1, h2, h3, h4, h5, h6 {
 @import "blocks/modal";
 @import "blocks/portfolio";
 @import "blocks/books";
+@import "blocks/blog";
+@import "blocks/blog_1";
+@import "blocks/blog_2";
+@import "blocks/projects";
+@import "blocks/contacts";
 
 /* Vendor libs */
 @import "vendor/slick";
 @import "vendor/baguettebox";
+@import "vendor/cards";

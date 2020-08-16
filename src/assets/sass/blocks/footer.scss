@@ -10,12 +10,12 @@
 }
 
 .page-footer {
-  background: $chrom!important;
+  background: $hex!important;
 }
 
 .footer-title {
   text-align: left;
-  color: $black_br;
+  color: $white;
 }
 
 .footer-item-subtitle {
@@ -26,7 +26,7 @@
 .footer-subtitle {
   margin: 1rem 0 0 0;
   text-align: left;
-  color: $black_br;
+  color: $body;
 }
 
 .footer-item {
@@ -36,7 +36,7 @@
 }
 
 .footer-down {
-  background-color: #ab9c8a!important;
+  background-color: $gray_add!important;
 }
 
 .footer-item-down {
