@@ -1,3 +1,5 @@
+/*Portfolio*/
+
 .portfolio__title {
   text-align: center;
   margin-top: 3rem;
@@ -6,7 +8,7 @@
 
 .portfolio__title_main {
   text-align: center;
-  margin-top: 3rem;
+  margin-top: 8rem;
   color: $brown_white;
 }
 
@@ -29,4 +31,39 @@
 .portfolio__toggle_4,
 .portfolio__toggle_5{
   text-decoration: none;
+}
+
+@media (max-width: 1199px) {
+  .gallery {
+    padding: 0 11px 0 11px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .portfolio__title_main {
+    margin-top: 6rem;
+    font-size: 12px;
+  }
+
+  .portfolio__title__name {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 532px) {
+  .portfolio__title__name {
+    font-size: 20px;
+  }
+
+  .portfolio__title {
+    margin-top: 2rem;
+  }
+}
+
+@media (max-width: 424px) {
+  .portfolio__title_main {
+    margin-top: 6rem;
+    font-size: 10px;
+  }
 }

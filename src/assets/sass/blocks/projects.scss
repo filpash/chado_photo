@@ -36,3 +36,38 @@
     outline-width: 0;
   }
 }
+
+@media (max-width: 1200px) {
+  .projects__about{
+    margin-top: 8rem;
+    margin-bottom: 5rem;
+    font-size: 35px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .projects__about{
+    margin-top: 8rem;
+    margin-bottom: 5rem;
+    font-size: 35px;
+  }
+}
+
+@media (max-width: 767px) {
+  .projects__about{
+    margin-top: 6rem;
+    margin-bottom: 4rem;
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 482px) {
+  .projects__about{
+    margin-bottom: 3rem;
+    font-size: 25px;
+  }
+
+  .projects__text p{
+    font-size: 15px;
+  }
+}

@@ -23,3 +23,52 @@
   color: #4a2d08;
   font-size: 30px;
 }
+
+/*Media*/
+
+@media (max-width: 460px) {
+  .title {
+    margin-top: 6rem;
+    margin-bottom: 3rem;
+  }
+
+  .title__name {
+    text-align: center;
+    color: #4a2d08;
+    font-weight: 700;
+    font-size: 30px;
+  }
+
+  .title__prof {
+    text-align: center;
+    color: #a85c08;
+    font-size: 15px;
+  }
+
+  .title__subtitle {
+    text-align: center;
+    color: #4a2d08;
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 365px) {
+  .title__name {
+    text-align: center;
+    color: #4a2d08;
+    font-weight: 700;
+    font-size: 28px;
+  }
+
+  .title__prof {
+    text-align: center;
+    color: #a85c08;
+    font-size: 15px;
+  }
+
+  .title__subtitle {
+    text-align: center;
+    color: #4a2d08;
+    font-size: 18px;
+  }
+}

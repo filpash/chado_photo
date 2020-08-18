@@ -96,3 +96,195 @@
     left: 0;
   }
 }
+
+@media (max-width: 1200px) {
+  .blog__title{
+    margin-top: 8rem;
+    margin-bottom: 60px;
+    font-size: 35px;
+  }
+
+  .card__butt__ps1{
+    margin-top: 81px;
+  }
+
+  .card__butt__ps2{
+    margin-top: 62px;
+  }
+
+  .card__butt__ps3{
+    margin-top: 15px;
+  }
+
+  .card__butt__ps4{
+    margin-top: 15px;
+  }
+
+  .card__butt__ps5{
+    margin-top: 40px;
+  }
+
+  .card__butt__ps6{
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: 992px) {
+  .blog__title{
+    margin-top: 6rem;
+    margin-bottom: 40px;
+  }
+
+  .card-body {
+    padding: 1rem!important;
+  }
+
+  .card-title{
+    font-size: 15px;
+  }
+
+  .card-text{
+    font-size: 13px;
+  }
+
+  .card__butt__ps1{
+    margin-top: 99px;
+  }
+
+  .card__butt__ps2{
+    margin-top: 62px;
+  }
+
+  .card__butt__ps3{
+    margin-top: 40px;
+  }
+
+  .card__butt__ps4{
+    margin-top: 60px;
+  }
+
+  .card__butt__ps5{
+    margin-top: 40px;
+  }
+
+  .card__butt__ps6{
+    margin-top: 58px;
+  }
+}
+
+@media (max-width: 767px) {
+  .blog__title{
+    margin-top: 6rem;
+    margin-bottom: 40px;
+  }
+
+  .card-body {
+    padding: 1rem!important;
+  }
+
+  .card-title{
+    font-size: 13px;
+  }
+
+  .card-text{
+    font-size: 12px;
+  }
+
+  .card__butt__ps1{
+    width: 140px;
+    height: 30px;
+    margin-top: 116px;
+    line-height: 25px;
+  }
+
+  .card__butt__ps2{
+    width: 140px;
+    height: 30px;
+    margin-top: 62px;
+    line-height: 25px;
+  }
+
+  .card__butt__ps3{
+    width: 140px;
+    height: 30px;
+    margin-top: 42px;
+    line-height: 25px;
+  }
+
+  .card__butt__ps4{
+    width: 140px;
+    height: 30px;
+    margin-top: 60px;
+    line-height: 25px;
+  }
+
+  .card__butt__ps5{
+    width: 140px;
+    height: 30px;
+    margin-top: 78px;
+    line-height: 25px;
+  }
+
+  .card__butt__ps6{
+    width: 140px;
+    height: 30px;
+    margin-top: 96px;
+    line-height: 25px;
+  }
+}
+
+@media (max-width: 575px) {
+  .blog__text {
+    font-size: 15px;
+  }
+
+  .card-title{
+    font-size: 20px;
+  }
+
+  .card-text{
+    font-size: 15px;
+  }
+
+  .card__butt__ps1{
+    width: 200px;
+    height: 50px;
+    margin-top: 20px;
+    line-height: 45px;
+  }
+
+  .card__butt__ps2{
+    width: 200px;
+    height: 50px;
+    margin-top: 20px;
+    line-height: 45px;
+  }
+
+  .card__butt__ps3{
+    width: 200px;
+    height: 50px;
+    margin-top: 20px;
+    line-height: 45px;
+  }
+
+  .card__butt__ps4{
+    width: 200px;
+    height: 50px;
+    margin-top: 20px;
+    line-height: 45px;
+  }
+
+  .card__butt__ps5{
+    width: 200px;
+    height: 50px;
+    margin-top: 20px;
+    line-height: 45px;
+  }
+
+  .card__butt__ps6{
+    width: 200px;
+    height: 50px;
+    margin-top: 20px;
+    line-height: 45px;
+  }
+}

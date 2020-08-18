@@ -59,3 +59,27 @@
   color: $brown_white;
   font-size: 18px;
 }
+
+@media (max-width: 994px) {
+  .contacts__title{
+    margin-top: 8rem;
+    margin-bottom: 5rem;
+    font-size: 35px;
+  }
+
+  .contacts__name {
+    font-size: 14px;
+  }
+
+  .contacts__index, .contacts__number {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 994px) {
+  .contacts__title{
+    margin-top: 6rem;
+    margin-bottom: 4rem;
+    font-size: 28px;
+  }
+}

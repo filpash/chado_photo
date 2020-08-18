@@ -74,3 +74,53 @@
     left: 0;
   }
 }
+
+@media (max-width: 1200px) {
+  .blog__title_1{
+    margin-top: 8rem;
+    margin-bottom: 60px;
+    font-size: 35px;
+  }
+
+  .blog__text {
+    font-family: 'Montserrat', sans-serif;
+    text-align: justify;
+    margin-top: 2rem;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+}
+
+@media (max-width: 991px) {
+  .blog__title_1 h3{
+    font-size: 35px;
+  }
+
+  .blog__text {
+    font-family: 'Montserrat', sans-serif;
+    text-align: justify;
+    margin-top: 2rem;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 545px) {
+  .blog__text {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 426px) {
+  .card__butt__ps {
+    width: 240px;
+    height: 50px;
+    line-height: 45px;
+  }
+}
+
+@media (max-width: 392px) {
+  .blog__title_1 h3{
+    font-size: 30px;
+  }
+}

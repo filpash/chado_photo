@@ -23,8 +23,8 @@
   font-family: 'Montserrat', sans-serif;
   text-align: justify;
   margin-top: 2rem;
-  padding-left: 25px;
-  padding-right: 25px;
+  margin-left: 198px;
+  margin-right: 198px;
 }
 
 .blog__direct{
@@ -72,5 +72,45 @@
   &:hover::before,
   &:hover::after{
     left: 0;
+  }
+}
+
+@media (max-width: 1200px) {
+  .blog__title_1 h3{
+    font-size: 35px;
+  }
+
+  .blog__text {
+    font-family: 'Montserrat', sans-serif;
+    text-align: justify;
+    margin-top: 2rem;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+}
+
+@media (max-width: 991px) {
+  .blog__title_1 h3{
+    font-size: 35px;
+  }
+
+  .blog__text {
+    font-family: 'Montserrat', sans-serif;
+    text-align: justify;
+    margin-top: 2rem;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 545px) {
+  .blog__text {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 392px) {
+  .blog__title_1 h3{
+    font-size: 30px;
   }
 }

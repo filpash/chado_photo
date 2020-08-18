@@ -88,3 +88,132 @@
   outline: 0;
   box-shadow: none;
 }
+
+
+@media (max-width: 994px) {
+  .rec__title {
+    margin-top: 6rem;
+  }
+
+  .rec__subtitle {
+    margin-top: 30px;
+  }
+
+  .rec__title__services {
+    margin-top: 30px;
+    margin-bottom: 40px;
+  }
+
+  .carousel-item__family {
+    position: absolute;
+    display: inline-block;
+    top: 45%;
+    left: 26%;
+    z-index: 1;
+    text-align: center;
+    color: $white;
+  }
+
+  .batn {
+    top: 55%;
+    left: 42%;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .carousel-item__family {
+    font-size: 20px;
+    top: 45%;
+    left: 27%;
+    z-index: 1;
+    text-align: center;
+    color: $white;
+  }
+
+  .batn {
+    top: 55%;
+    left: 40%;
+
+    font-family: inherit;
+    font-size: 1rem;
+    line-height: 1.1;
+    font-weight: 500;
+    padding: 8px;
+  }
+}
+
+@media (max-width: 545px) {
+
+  .carousel-item__family {
+    font-size: 20px;
+    top: 45%;
+    left: 25%;
+    z-index: 1;
+    text-align: center;
+    color: $white;
+  }
+
+  .batn {
+    top: 55%;
+    left: 38%;
+
+    font-family: inherit;
+    font-size: 1rem;
+    line-height: 1.1;
+    font-weight: 500;
+    padding: 8px;
+  }
+}
+
+@media (max-width: 420px) {
+
+  .rec__reason {
+    font-size: 15px;
+  }
+
+  .rec__add {
+    font-size: 15px;
+  }
+
+  .carousel-item__family {
+    font-size: 18px;
+    top: 45%;
+    left: 22%;
+  }
+
+  .batn {
+    top: 55%;
+    left: 38%;
+
+    font-size: .8rem;
+  }
+}
+
+@media (max-width: 390px) {
+
+  .rec__title {
+    font-size: 30px;
+  }
+
+  .rec__subtitle {
+    font-size: 30px;
+  }
+
+  .rec__title__services {
+    font-size: 30px;
+  }
+
+  .carousel-item__family {
+    font-size: 15px;
+    top: 45%;
+    left: 24%;
+  }
+
+  .batn {
+    top: 55%;
+    left: 40%;
+
+    font-size: .6rem;
+  }
+}

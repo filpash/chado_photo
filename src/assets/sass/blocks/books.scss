@@ -1,3 +1,5 @@
+/*Books*/
+
 .books{
   margin-top: 140px;
   padding-bottom: 40px;
@@ -13,7 +15,7 @@
   text-align: center;
   color: #4a2d08;
   font-weight: 700;
-  font-size: 38px;
+  font-size: 35px;
 }
 
 .book__intro__title{
@@ -43,4 +45,38 @@ li{
 p{
   color: $chrom;
   font-size: 18px;
+}
+
+@media (max-width: 994px) {
+  .books{
+    margin-top: 90px;
+  }
+
+  .book__title_main{
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 545px) {
+  .book__title_main{
+    margin-top: 35px;
+    margin-bottom: 40px;
+    font-size: 28px;
+  }
+
+  .book__title {
+    font-size: 18px;
+  }
+
+  .book__list_item p{
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 420px) {
+  .book__title_main{
+    margin-top: 35px;
+    margin-bottom: 40px;
+    font-size: 24px;
+  }
 }
