@@ -3,7 +3,6 @@
 .portfolio__title {
   text-align: center;
   margin-top: 3rem;
-  margin-bottom: 3rem;
 }
 
 .portfolio__title_main {
@@ -30,6 +29,10 @@
 .portfolio__toggle_3,
 .portfolio__toggle_4,
 .portfolio__toggle_5{
+  text-decoration: none;
+}
+
+a{
   text-decoration: none;
 }
 
