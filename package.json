@@ -1,7 +1,7 @@
 {
   "name": "chado-foto",
   "version": "1.0.0",
-  "description": "website viktoria pashkevich",
+  "description": "website filipp pashkevich",
   "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
